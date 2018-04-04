@@ -1,4 +1,4 @@
-### Ethereum-style token smart contract for Hyperledger Fabric 1.0
+### Ethereum-style token [ERC-20 standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md) smart contract for Hyperledger Fabric v1.x
 
 How to use it:
 
