@@ -20,11 +20,12 @@ import (
 	"encoding/binary"
 	"encoding/json"
 	"errors"
+	"testing"
+
+	"github.com/fabric-token/chaincode/mock"
+	"github.com/fabric-token/chaincode/testdata"
 	"github.com/hyperledger/fabric/common/util"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/token/chaincode/mock"
-	"github.com/token/chaincode/testdata"
-	"testing"
 )
 
 var fabricToken = Token{
